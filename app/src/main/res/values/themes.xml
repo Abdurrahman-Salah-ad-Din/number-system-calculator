@@ -15,4 +15,17 @@
     </style>
 
 
+    <style name="ButtonStyle">
+        <item name="android:textSize">@dimen/largeText</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/segoe_ui</item>
+        <item name="android:textColor">@color/button_hex_system_color</item>
+    </style>
+
+    <style name="numberButtonStyle" parent="ButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/largeText</item>
+        <item name="android:textColor">@color/number_color</item>
+    </style>
+
 </resources>
